@@ -1,0 +1,275 @@
+/*основные настройки*/
+:root {
+   --primary-text-color: #757575;
+   --title-text-color: #212121;
+   --accent-color: #2196F3;
+   --primary-white-color: #FFFFFF;
+   --primary-bg-color: #FFFFFF;
+   --secondary-bg-color: #2F303A;
+   --secondary-white-color: #F5F4FA;
+}
+
+.body {
+   background-color: var(--primary-bg-color);
+   color: var(--primary-text-color);
+   font-family: 'Roboto', 'sans-serif';
+   font-size: 14px;
+   letter-spacing: 0.03em;
+}
+
+
+/* block header */
+
+.text-logo {
+   font-family: 'Raleway', sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   color: #2196F3;
+   text-decoration: none;
+}
+
+.Part-logo-black {
+   color: #212121;
+}
+
+.Part-logo-white {
+   color: aliceblue;
+}
+
+/*навигация*/
+.link {
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 16px;
+   text-decoration: none;
+   color: #212121;
+}
+
+.link-navigation .link:hover,
+link:focus {
+   color: #2196F3;
+}
+
+.current {
+   color: var(--accent-color);
+   text-decoration: none;
+}
+
+/*контакты*/
+
+
+
+
+.connektion-header,
+.connect-link {
+   font-family: 'Roboto';
+   color: var(--primary-text-color);
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+}
+
+.connektion-header .connect-link:hover,
+.connektion-header .connect-link:focus {
+   color: var(--accent-color);
+}
+
+
+/* block main */
+.title {
+   color: var(--primary-white-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.35;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+}
+
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+}
+
+/*кнопка webstudio*/
+
+.link-button {
+   text-decoration: none;
+}
+
+.button-title {
+   color: var(--primary-white-color);
+   background-color: var(--accent-color);
+   cursor: pointer;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.85;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   letter-spacing: 0.06em;
+   border-radius: 4px;
+
+}
+
+.button-title:hover,
+.button-title:focus {
+   color: var(--primary-white-color);
+   background-color: #188CE8;
+   ;
+}
+
+.background-gray {
+   background-color: #2F303A;
+
+}
+
+.features {
+   background-color: var(--primary-bg-color);
+}
+
+/*Наши преимущества*/
+.text-title {
+   color: var(--title-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.15;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+}
+
+.Text-description {
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+}
+
+/*чем занимаемся и наша команда*/
+.exercise {
+   background-color: var(--primary-bg-color);
+}
+
+.title-exercise {
+   font-family: 'Roboto';
+   font-style: normal;
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+.initials {
+   color: var(--title-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+.position {
+   font-size: 16px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+}
+
+.Our-command {
+   background-color: #F5F4FA;
+}
+
+/* block footer */
+.background-footer {
+   background-color: #2F303A;
+}
+
+/*кнопки сервисов*/
+.button-service {
+   color: var(--title-text-color);
+   background-color: var(--secondary-white-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+   border-radius: 4px;
+}
+
+.button-service:hover,
+.button-service:focus {
+   color: var(--primary-white-color);
+   background-color: var(--accent-color);
+}
+
+/*каталог*/
+.catalog-heading {
+   color: var(--title-text-color);
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+
+.catalog-text {
+   font-size: 16px;
+   line-height: 1.85;
+   letter-spacing: 0.03em;
+}
+
+/*контакты подвал*/
+.adres-footer {
+   color: var(--primary-white-color);
+   text-decoration: none;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+}
+
+.adres-footer:hover,
+.adres-footer:focus {
+   color: var(--accent-color);
+}
+
+.connect-footer {
+   color: rgba(255, 255, 255, 0.6);
+   text-decoration: none;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+
+}
+
+.connect-footer:hover,
+.connect-footer:focus {
+   color: var(--accent-color);
+}
+
+.list-style {
+   list-style: none
+}
