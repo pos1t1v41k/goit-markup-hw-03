@@ -6,29 +6,33 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Portfolio</title>
-   <link rel="stylesheet" href="./css/style.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/modern-normalize.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="body">
-   <header>
-      <a class="text-logo" href="index.html">Web<span class="Part-logo-black">Studio</span></a>
-      <nav>
+   <header class="page-header">
+      <nav class="container">
+         <a class="text-logo" href="index.html">Web<span class="Part-logo-black">Studio</span></a>
          <ul class="link-navigation , list-style">
             <li><a class="link" href="./index.html">Студия</a></li>
             <li><a class="link , current" href="">Портфолио</a></li>
             <li><a class="link" href="">Контакты</a></li>
          </ul>
       </nav>
+   <div class="container">
       <ul class="connektion-header , list-style">
          <li><a class="connect-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
          <li><a class="connect-link" href="tel:+380991111111"><span class="connection">+380991111111</span></a></li>
       </ul>
+   </div>
    </header>
    <main>
-      <section>
+      <section class="examples">
+         <div class="container">
          <h1 class="visually-hidden">Примеры работ</h1>
          <ul  class="list-style" >
             <li><button class="button-service" type="button">Все</button></li>
@@ -111,23 +115,26 @@
             </li>
          
       </ul>
+   </div>
       </section>
    </main>
-   <footer class="background-gray">
+   <footer class="background-footer">
+      <div class="container">
       <a class="text-logo" href="index.html">Web<span class="Part-logo-white">Studio</span></a>
       <address>
-         <ul class="connection-footer-wrapper , list-style">
-            <li>
+         <ul class="footer-list, list-style">
+            <li class="footer-link-item">
                <a class="adres-footer" href="https://goo.gl/maps/MrdQJycXRBSHevHh7" target="_blank" rel="noopener nofollow noreferrer">
                   г.Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
+            <li class="footer-link-item">
                <a class="connect-footer" href="mailto:info@devstudio.com">info@exemple.com</a>
             </li>
-            <li>
+            <li class="footer-link-item">
                <a class="connect-footer" href="tel:+380991111111">+380991111111</a>
             </li>
          </ul>
+      </div>
       </address>
    </footer>
 </body>

@@ -17,25 +17,61 @@
    letter-spacing: 0.03em;
 }
 
+.list-style {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
 
+img {
+   display: block;
+   max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.container {
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
 
 /* block header */
+.page-header {
+   border-bottom: 1px solid #ececec;
+}
 
 .text-logo {
+
    font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 26px;
    line-height: 31px;
    color: #2196F3;
    text-decoration: none;
+   display: inline-block;
+   margin-bottom: 20px;
 }
 
 .Part-logo-black {
    color: #212121;
+   display: inline-block;
 }
 
 .Part-logo-white {
    color: aliceblue;
+   display: inline-block;
 }
 
 /*навигация*/
@@ -45,6 +81,9 @@
    line-height: 16px;
    text-decoration: none;
    color: #212121;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   display: block;
 }
 
 .link-navigation .link:hover,
@@ -55,6 +94,9 @@ link:focus {
 .current {
    color: var(--accent-color);
    text-decoration: none;
+   display: block;
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 
 /*контакты*/
@@ -71,6 +113,9 @@ link:focus {
    font-size: 14px;
    line-height: 1.2;
    letter-spacing: 0.02em;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   display: block;
 }
 
 .connektion-header .connect-link:hover,
@@ -81,6 +126,7 @@ link:focus {
 
 /* block main */
 .title {
+   margin-bottom: 30px;
    color: var(--primary-white-color);
    font-family: 'Roboto';
    font-style: normal;
@@ -89,6 +135,13 @@ link:focus {
    line-height: 1.35;
    letter-spacing: 0.06em;
    text-transform: uppercase;
+}
+
+.hero {
+   background-color: var(--secondary-bg-color);
+   text-align: center;
+   padding: 200px 0px;
+
 }
 
 .visually-hidden {
@@ -119,7 +172,8 @@ link:focus {
    font-weight: 700;
    font-size: 16px;
    line-height: 1.85;
-   display: flex;
+   padding: 10px 32px;
+   display: inline-block;
    align-items: center;
    text-align: center;
    letter-spacing: 0.06em;
@@ -134,17 +188,17 @@ link:focus {
    ;
 }
 
-.background-gray {
-   background-color: #2F303A;
 
-}
 
 .features {
    background-color: var(--primary-bg-color);
+   padding-top: 95px;
+   padding-bottom: 95px;
 }
 
 /*Наши преимущества*/
 .text-title {
+   margin-bottom: 10px;
    color: var(--title-text-color);
    font-family: 'Roboto';
    font-style: normal;
@@ -164,9 +218,12 @@ link:focus {
 /*чем занимаемся и наша команда*/
 .exercise {
    background-color: var(--primary-bg-color);
+   padding-bottom: 95px;
+   text-align: center;
 }
 
 .title-exercise {
+   margin-bottom: 50px;
    font-family: 'Roboto';
    font-style: normal;
    color: var(--title-text-color);
@@ -177,6 +234,7 @@ link:focus {
 }
 
 .initials {
+   margin-bottom: 10px;
    color: var(--title-text-color);
    font-family: 'Roboto';
    font-style: normal;
@@ -192,16 +250,42 @@ link:focus {
    letter-spacing: 0.03em;
 }
 
-.Our-command {
-   background-color: #F5F4FA;
+.our-command {
+   background-color: var(--secondary-white-color);
+   padding-top: 95px;
+   padding-bottom: 95px;
+
+}
+
+.title-our-command {
+   margin-bottom: 50px;
+   font-family: 'Roboto';
+   font-style: normal;
+   color: var(--title-text-color);
+   font-weight: 700;
+   line-height: 1.15;
+   letter-spacing: 0.03em;
+   font-size: 36px;
+}
+
+.crew-content {
+   padding-bottom: 30px;
+   padding-top: 30px;
 }
 
 /* block footer */
 .background-footer {
-   background-color: #2F303A;
+   background-color: var(--secondary-bg-color);
+   padding-top: 60px;
+   padding-bottom: 60px;
 }
 
 /*кнопки сервисов*/
+.examples {
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
+
 .button-service {
    color: var(--title-text-color);
    background-color: var(--secondary-white-color);
@@ -213,6 +297,8 @@ link:focus {
    letter-spacing: 0.03em;
    cursor: pointer;
    border-radius: 4px;
+   padding: 6px 22px;
+   border: none;
 }
 
 .button-service:hover,
@@ -248,6 +334,8 @@ link:focus {
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
+   display: block;
+   margin-bottom: 10px;
 }
 
 .adres-footer:hover,
@@ -263,6 +351,7 @@ link:focus {
    font-size: 14px;
    line-height: 1.7;
    letter-spacing: 0.03em;
+   display: block;
 
 }
 
@@ -271,6 +360,7 @@ link:focus {
    color: var(--accent-color);
 }
 
-.list-style {
-   list-style: none
+.footer-list :nth-child(2) {
+   margin-bottom: 10px;
+   display: block;
 }

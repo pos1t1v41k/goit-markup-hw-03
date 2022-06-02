@@ -5,35 +5,41 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="./css/style.css">
    <title>Web Studio</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/modern-normalize.css">
+<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body class="body">
 
-   <header >
-      <a href="index.html" class="text-logo">Web<span class="Part-logo-black">Studio</span></a>
-      <nav>
+   <header class="page-header" >
+      <nav class="container">
+         <a href="index.html" class="text-logo">Web<span class="Part-logo-black">Studio</span></a>
          <ul class="link-navigation , list-style">
             <li><a class="link , current" href="">Студия</a></li>
             <li><a class="link" href="./portfolio.html">Портфолио</a></li>
             <li><a class="link" href="">Контакты</a></li>
          </ul>
       </nav>
+   <div class="container">
       <ul class="connektion-header , list-style">
          <li><a class="connect-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
          <li><a class="connect-link" href="tel:+380991111111">+380991111111</a></li>
       </ul>
+   </div>
    </header>
    <main>
-      <section class="background-gray">
+      <section class="hero">
+      <div class="container">
          <h1 class="title">эффективные решения для <br> вашего бизнеса</h1>
          <button class="button-title" type="button">Заказать услугу</button>
+      </div>
       </section>
       <Section class="features">
+      <div class="container">
          <h2 class="visually-hidden">Наши преимущества</h2>
          <ul class="list-style">
             <li>
@@ -53,56 +59,71 @@
                <p class="Text-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
          </ul>
+      </div>
       </Section>
       <section class="exercise">
+      <div class="container">
          <h2 class="title-exercise">Чем мы занимаемся</h2>
          <ul class="list-style">
             <li><img src="./img/box1.jpg" alt="проектирование веб сайтов" width="370"></li>
             <li><img src="./img/box2.jpg" alt="создание мобильных приложений" width="370"></li>
             <li><img src="./img/box3.jpg" alt="палитра на планшете" width="370"></li>
          </ul>
+      </div>
       </section>
-      <section class="Our-command">
-         <h2 class="title-exercise">Наша команда</h2>
+      <section class="our-command">
+      <div class="container">
+         <h2 class="title-our-command">Наша команда</h2>
          <ul>
             <li style="list-style:none">
                <img src="./img/crew1.jpg" alt="Игорь Демьяненко Product Designer" width="270">
+               <div class="crew-content">
                <h3 class="initials">Игорь Демьяненко</h3>
                <p class="position">Product Designer</p>
+               </div>               
             </li>
             <li style="list-style:none">
                <img src="./img/crew2.jpg" alt="Ольга Репина Frontend Developer" width="270">
+               <div class="crew-content">
                <h3 class="initials">Ольга Репина</h3>
                <p class="position">Frontend Developer</p>
+               </div>               
             </li>
             <li style="list-style:none">
                <img src="./img/crew3.jpg" alt="Николай Тарасов Marketing" width="270">
+               <div class="crew-content">
                <h3 class="initials">Николай Тарасов</h3>
                <p class="position">Marketing</p>
+               </div>               
             </li>
             <li style="list-style:none">
                <img src="./img/crew4.jpg" alt="Михаил Ермаков UI Designer" width="270">
+               <div class="crew-content">
                <h3 class="initials">Михаил Ермаков</h3>
                <p class="position">UI Designer</p>
+               </div>               
             </li>
          </ul>
+      </div>
       </section>
    </main>
    <footer class="background-footer">
+      <div class="container">
       <a class="text-logo" href="index.html">Web<span class="Part-logo-white">Studio</span></a>
       <address>
-         <ul class="connection-footer-wrapper, list-style">
-            <li>
+         <ul class="footer-list, list-style">
+            <li class="footer-link-item">
                <a class="adres-footer" href="https://goo.gl/maps/MrdQJycXRBSHevHh7" target="_blank" rel="noopener nofollow noreferrer">
                г.Киев, пр-т Леси Украинки, 26</a>
             </li>
-            <li>
+            <li class="footer-link-item">
                <a class="connect-footer" href="mailto:info@devstudio.com">info@exemple.com</a>
             </li>
-            <li>
+            <li class="footer-link-item">
                <a class="connect-footer" href="tel:+380991111111">+380991111111</a>
             </li>
          </ul>
+      </div>
       </address>
    </footer>
 </body>
