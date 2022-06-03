@@ -15,18 +15,18 @@
 
 <body class="body">
    <header class="page-header">
-      <nav class="container">
+      <div class="container main-nav">
+      <nav class="main-nav">
          <a class="text-logo" href="index.html">Web<span class="Part-logo-black">Studio</span></a>
-         <ul class="link-navigation , list-style">
-            <li><a class="link" href="./index.html">Студия</a></li>
-            <li><a class="link , current" href="">Портфолио</a></li>
-            <li><a class="link" href="">Контакты</a></li>
+         <ul class="link-nav , list-style">
+            <li class="link-nav-item"><a class="header-link current-clean" href="./index.html">Студия</a></li>
+            <li class="link-nav-item"><a class="header-link current" href="">Портфолио</a></li>
+            <li class="link-nav-item"><a class="header-link current-clean" href="">Контакты</a></li>
          </ul>
       </nav>
-   <div class="container">
-      <ul class="connektion-header , list-style">
-         <li><a class="connect-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a class="connect-link" href="tel:+380991111111"><span class="connection">+380991111111</span></a></li>
+      <ul class="contact-header , list-style">
+         <li class="contact-item"><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+         <li class="contact-item"><a class="contact" href="tel:+380991111111">+380991111111</a></li>
       </ul>
    </div>
    </header>
@@ -34,94 +34,112 @@
       <section class="examples">
          <div class="container">
          <h1 class="visually-hidden">Примеры работ</h1>
-         <ul  class="list-style" >
-            <li><button class="button-service" type="button">Все</button></li>
-            <li><button class="button-service" type="button">Веб-сайты</button></li>
-            <li><button class="button-service" type="button">Приложения</button></li>
-            <li><button class="button-service" type="button">Дизайн</button></li>
-            <li><button class="button-service" type="button">Маркетинг</button></li>
+         <ul  class="button-service-list list-style" >
+            <li class="button-service-item"><button class="button-service" type="button">Все</button></li>
+            <li class="button-service-item"><button class="button-service" type="button">Веб-сайты</button></li>
+            <li class="button-service-item"><button class="button-service" type="button">Приложения</button></li>
+            <li class="button-service-item"><button class="button-service" type="button">Дизайн</button></li>
+            <li class="button-service-item"><button class="button-service" type="button">Маркетинг</button></li>
          </ul>
-         <ul>
+         <ul class="card">
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/imge1.jpg" alt="ноутбук" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Технокряк</h2>
                <p class="catalog-text">Веб-сайт</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/imge2.jpg" alt="постер баскетболисты" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Постер New Orlean vs Golden Star</h2>
                <p class="catalog-text">Дизайн</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img3.jpg" alt="логотип ресторана" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Ресторан Seafood</h2>
                <p class="catalog-text">Приложение</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img4.jpg" alt="наушники" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Проект Prime</h2>
                <p class="catalog-text">Маркетинг</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img5.jpg" alt="коробки" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Проект Boxes</h2>
                <p class="catalog-text">Приложение</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img6.jpg" alt="монитор" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Inspiration has no Borders</h2>
                <p class="catalog-text">Веб-сайт</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img7.jpg" alt="книга" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Издание Limited Edition</h2>
                <p class="catalog-text">Дизайн</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img8.jpg" alt="бирка" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Проект LAB</h2>
                <p class="catalog-text">Маркетинг</p>
                <p></p>
+               </div>
             </li>
          
          
-            <li style="list-style:none">
+            <li class="card-item" style="list-style:none">
                <img src="./img/img9.jpg" alt="разработка приложения" width="370">
+               <div class="card-content">
                <h2 class="catalog-heading">Growing Business</h2>
                <p class="catalog-text">Приложение</p>
                <p></p>
+               </div>
             </li>
          
       </ul>
    </div>
       </section>
    </main>
-   <footer class="background-footer">
+   <footer class="footer">
       <div class="container">
-      <a class="text-logo" href="index.html">Web<span class="Part-logo-white">Studio</span></a>
-      <address>
+      <a class="footer-logo" href="index.html">Web<span class="Part-logo-white">Studio</span></a>
+      <address class="footer-adress">
          <ul class="footer-list, list-style">
             <li class="footer-link-item">
                <a class="adres-footer" href="https://goo.gl/maps/MrdQJycXRBSHevHh7" target="_blank" rel="noopener nofollow noreferrer">
