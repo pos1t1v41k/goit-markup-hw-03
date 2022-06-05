@@ -283,7 +283,7 @@ p {
 /*чем занимаемся и наша команда*/
 
 .exercise {
-   display: flex;
+   padding-bottom: 94px;
 }
 
 .title-exercise {
@@ -418,7 +418,7 @@ p {
 }
 
 .footer-link-item {
-   padding-bottom: 9px;
+   margin-bottom: 9px;
 }
 
 
